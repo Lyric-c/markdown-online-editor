@@ -4,7 +4,7 @@ import Vue from 'vue'
 import './global.js'
 import App from './App.vue'
 import router from './router'
-import './registerServiceWorker'
+// import './registerServiceWorker'
 
 new Vue({
   router,
