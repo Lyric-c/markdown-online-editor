@@ -111,12 +111,6 @@ gantt
 
 ### 7. 支持图表
 
-\`\`\`echarts
-${echartsDemoJsonStr}
-\`\`\`
-
->**备注**：上述 echarts 图表📈，其数据，须使用严格的 **JSON** 格式；您可使用 JSON.stringify(data)，将对象传换从而得标准数据，即可正常使用。
-
 ### 8. 绘制表格
 
 ### 9. 更详细语法说明
