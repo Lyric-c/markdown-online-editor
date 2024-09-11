@@ -90,12 +90,6 @@ export default {
       }
       this.vditor.insertValue(imgMdStr)
     },
-    setDefaultText() {
-      const savedMdContent = localStorage.getItem('vditorvditor') || ''
-      if (!savedMdContent.trim()) {
-        localStorage.setItem('vditorvditor', defaultText)
-      }
-    },
   },
 }
 </script>
