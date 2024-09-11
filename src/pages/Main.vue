@@ -23,15 +23,6 @@ export default {
     }
   },
 
-  created() {
-    console.log(
-      '%c 倾城之链：倾心缔造，痴心为你。 https://nicelinks.site/',
-      'font-size:2.113em;color: #2edfa3'
-    )
-    this.setDefaultText()
-    console.log = () => {}
-  },
-
   components: {
     HeaderNav,
   },
