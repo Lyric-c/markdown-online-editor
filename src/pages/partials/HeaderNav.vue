@@ -4,68 +4,13 @@
   <section class="header-wrapper">
     <h1 class="header-area">
       <a
-        href="https://markdown.lovejade.cn/?ref=markdown.lovejade.cn&pid=main-title"
+        href="#"
         class="header-link"
       >
         <img class="mark-markdown" src="@assets/images/markdown.png" alt="在线 Markdown 编辑器" />
         <strong v-if="!isMobile" class="header-text">{{ titleText }}</strong>
       </a>
       <div class="button-group">
-        <a
-          href="https://niceshare.site/?ref=markdown.lovejade.cn"
-          class="header-link"
-          target="_blank"
-          rel="noopener"
-        >
-          <span class="hint--bottom" aria-label="逍遥自在轩">
-            <icon class="header-icon" name="homepage" />
-          </span>
-        </a>
-        <a
-          v-if="!isMobile"
-          href="https://quickapp.lovejade.cn/?ref=markdown.lovejade.cn"
-          class="header-link"
-          target="_blank"
-          rel="noopener"
-        >
-          <span class="hint--bottom" aria-label="静轩之别苑">
-            <icon class="header-icon" name="quickapp" />
-          </span>
-        </a>
-        <a
-          v-if="!isMobile"
-          href="https://wechat.jeffjade.com/?ref=markdown.lovejade.cn"
-          class="header-link"
-          target="_blank"
-          rel="noopener"
-        >
-          <span class="hint--bottom" aria-label="公众号 Markdown 排版">
-            <icon class="header-icon" name="wechat" />
-          </span>
-        </a>
-        <a
-          v-if="!isMobile"
-          href="https://github.lovejade.cn/?ref=markdown.lovejade.cn"
-          class="header-link"
-        >
-          <span class="hint--bottom" aria-label="作者 Github">
-            <icon class="header-icon" name="github" />
-          </span>
-        </a>
-        <a
-          v-if="!isMobile"
-          href="https://www.jeffjade.com/about-me/?ref=markdown.lovejade.cn"
-          class="header-link"
-        >
-          <span class="hint--bottom" aria-label="关于作者">
-            <icon class="header-icon" name="author" />
-          </span>
-        </a>
-        <router-link to="/about-arya" class="header-link">
-          <span class="hint--bottom" aria-label="关于 Arya">
-            <icon class="header-icon" name="document" />
-          </span>
-        </router-link>
         <!-- <span class="hint--bottom" @click="onThemeClick" aria-label="变更主题">
           <icon class="header-icon" name="adjust" />
         </span> -->

@@ -1,56 +1,8 @@
 /** @format */
 
-const echartsConf = {
-  backgroundColor: '#212121',
-  title: {
-    text: '「晚晴幽草轩」访问来源',
-    subtext: '2019 年 6 月份',
-    x: 'center',
-    textStyle: {
-      color: '#f2f2f2'
-    }
-  },
-  tooltip: {
-    trigger: 'item',
-    formatter: '{a} <br/>{b} : {c} ({d}%)'
-  },
-  legend: {
-    orient: 'vertical',
-    left: 'left',
-    data: ['搜索引擎', '直接访问', '推荐', '其他', '社交平台'],
-    textStyle: {
-      color: '#f2f2f2'
-    }
-  },
-  series: [
-    {
-      name: '访问来源',
-      type: 'pie',
-      radius: '55%',
-      center: ['50%', '60%'],
-      data: [
-        { value: 10440, name: '搜索引擎', itemStyle: { color: '#ef4136' } },
-        { value: 4770, name: '直接访问' },
-        { value: 2430, name: '推荐' },
-        { value: 342, name: '其他' },
-        { value: 18, name: '社交平台' }
-      ],
-      itemStyle: {
-        emphasis: {
-          shadowBlur: 10,
-          shadowOffsetX: 0,
-          shadowColor: 'rgba(0, 0, 0, 0.5)'
-        }
-      }
-    }
-  ]
-}
+export default `# 欢迎使用在线 Markdown 编辑器
 
-const echartsDemoJsonStr = JSON.stringify(echartsConf, null, 2)
-
-export default `# 欢迎使用 \`Arya\` 在线 Markdown 编辑器
-
-[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn)，是一款基于 \`Vue\`、\`Vditor\`，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。
+这一款基于 \`Vue\`、\`Vditor\`，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。
 
 ---
 
@@ -166,12 +118,6 @@ ${echartsDemoJsonStr}
 >**备注**：上述 echarts 图表📈，其数据，须使用严格的 **JSON** 格式；您可使用 JSON.stringify(data)，将对象传换从而得标准数据，即可正常使用。
 
 ### 8. 绘制表格
-
-| 作品名称        | 在线地址   |  上线日期  |
-| :--------  | :-----  | :----:  |
-| 倾城之链 | [https://nicelinks.site](https://nicelinks.site/??utm_source=markdown.lovejade.cn) |2017-09-20|
-| 晚晴幽草轩 | [https://jeffjade.com](https://jeffjade.com/??utm_source=markdown.lovejade.cn) |2014-09-20|
-| 静轩之别苑 | [http://quickapp.lovejade.cn](http://quickapp.lovejade.cn/??utm_source=markdown.lovejade.cn) |2019-01-12|
 
 ### 9. 更详细语法说明
 
