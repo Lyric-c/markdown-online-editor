@@ -4,7 +4,6 @@
   <section class="header-wrapper">
     <h1 class="header-area">
       <a
-        href="#"
         class="header-link"
       >
         <img class="mark-markdown" src="@assets/images/markdown.png" alt="在线 Markdown 编辑器" />
@@ -80,7 +79,7 @@ export default {
   data() {
     return {
       isMobile: window.innerWidth <= 768,
-      titleText: window.$appTitle,
+      titleText: markdown编辑器,
       exportTextMap,
     }
   },

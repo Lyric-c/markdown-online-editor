@@ -12,22 +12,6 @@ export default [
     component: resolve => require(['@pages/Main'], resolve)
   },
   {
-    path: '/about-arya',
-    meta: {
-      title: `关于 | ${window.$appTitle}`
-    },
-    component: Frame,
-    children: [
-      {
-        path: '/',
-        meta: {
-          title: `关于 | ${window.$appTitle}`
-        },
-        component: resolve => require(['@pages/About'], resolve)
-      }
-    ]
-  },
-  {
     path: '/index',
     redirect: '/'
   },

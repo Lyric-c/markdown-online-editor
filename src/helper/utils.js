@@ -80,7 +80,7 @@ export default {
   getExportFileName() {
     const type = location.pathname.split('/')[0]
     const timestamp = this.getTimestamp()
-    const filename = `arya-${timestamp}.${type}`
+    const filename = `markdown-${timestamp}.${type}`
     return filename
   },
 

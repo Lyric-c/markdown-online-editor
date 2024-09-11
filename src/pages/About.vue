@@ -6,15 +6,13 @@
 
 <script>
 import PreviewVditor from '@components/PreviewVditor'
-import AboutAryaMd from '@config/aboutArya'
 
 export default {
-  name: 'about-arya',
+  name: 'markdown',
 
   data() {
     return {
       isLoading: false,
-      pdata: AboutAryaMd
     }
   },
 
