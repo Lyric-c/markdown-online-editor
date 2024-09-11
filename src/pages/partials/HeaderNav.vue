@@ -79,7 +79,7 @@ export default {
   data() {
     return {
       isMobile: window.innerWidth <= 768,
-      titleText: markdown编辑器,
+      titleText: window.$appTitle,
       exportTextMap,
     }
   },
